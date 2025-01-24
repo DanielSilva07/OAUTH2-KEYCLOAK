@@ -47,10 +47,10 @@ public class SecurityConfig {
                 .addFilterAfter(new CsrfCookieFilter(), BasicAuthenticationFilter.class);
         //  http .requiresChannel(rcc -> rcc.anyRequest().requiresSecure()); // Only HTTPS
         http.authorizeHttpRequests(requests -> requests
-                .requestMatchers("/cadastrar", "/error","/invalidSession","/gg" ).permitAll()
-                .requestMatchers("/unsecure").hasAnyRole("USER" , "ADMIN")
+                .requestMatchers("/cadastrar", "/error","/invalidSession","/public" ).permitAll()
+                .requestMatchers("/private-scoped").hasAnyRole("USER" , "ADMIN")
                 .requestMatchers("/all").hasRole("ADMIN")
-                .requestMatchers("/secure").authenticated());
+                .requestMatchers("/private").authenticated());
         http.oauth2ResourceServer(oauth2 ->
                 oauth2.jwt(jwtConfigurer ->
                 jwtConfigurer.jwtAuthenticationConverter(jwtAuthenticationConverter)));
