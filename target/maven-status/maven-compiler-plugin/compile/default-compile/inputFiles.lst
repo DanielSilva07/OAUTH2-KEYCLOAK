@@ -1,0 +1,13 @@
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/OauthKeycloakApplication.java
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/controller/CustomerController.java
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/dto/LoginRequestDTO.java
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/dto/LoginResponseDTO.java
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/events/AuthenticationEvents.java
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/events/AuthorizationEvents.java
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/filter/CsrfCookieFilter.java
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/infra/SecurityConfig.java
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/model/Authority.java
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/model/Customer.java
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/repository/AuthorityRepository.java
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/repository/CustomerRepository.java
+/home/daniel-silva/Documentos/ideaProjects/OAUTH-KEYCLOAK/src/main/java/com/daniel/silva/OAUTH_KEYCLOAK/service/CustomerService.java

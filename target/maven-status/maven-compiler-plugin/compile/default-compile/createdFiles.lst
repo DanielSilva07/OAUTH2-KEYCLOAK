@@ -1,0 +1,14 @@
+com/daniel/silva/OAUTH_KEYCLOAK/events/AuthorizationEvents.class
+com/daniel/silva/OAUTH_KEYCLOAK/controller/CustomerController.class
+com/daniel/silva/OAUTH_KEYCLOAK/repository/AuthorityRepository.class
+com/daniel/silva/OAUTH_KEYCLOAK/repository/CustomerRepository.class
+com/daniel/silva/OAUTH_KEYCLOAK/service/CustomerService.class
+com/daniel/silva/OAUTH_KEYCLOAK/infra/SecurityConfig$1.class
+com/daniel/silva/OAUTH_KEYCLOAK/filter/CsrfCookieFilter.class
+com/daniel/silva/OAUTH_KEYCLOAK/model/Customer.class
+com/daniel/silva/OAUTH_KEYCLOAK/dto/LoginResponseDTO.class
+com/daniel/silva/OAUTH_KEYCLOAK/dto/LoginRequestDTO.class
+com/daniel/silva/OAUTH_KEYCLOAK/model/Authority.class
+com/daniel/silva/OAUTH_KEYCLOAK/OauthKeycloakApplication.class
+com/daniel/silva/OAUTH_KEYCLOAK/events/AuthenticationEvents.class
+com/daniel/silva/OAUTH_KEYCLOAK/infra/SecurityConfig.class
